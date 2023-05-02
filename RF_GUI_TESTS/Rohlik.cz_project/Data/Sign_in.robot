@@ -46,4 +46,4 @@ Verify Logout
     Should Not Contain    ${login_icon_out}    DK
     Should Contain        ${login_icon_out}    Účet
 
-    Sleep    3s
+    Sleep    5s

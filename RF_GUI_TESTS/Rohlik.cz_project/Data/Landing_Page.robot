@@ -6,8 +6,9 @@ Resource    Selectors.robot
 *** Keywords ***
 Start Web Test
     New Browser    ${BROWSER}    headless=False
+    sleep   10s
     New Page       ${BASE_URL}
-    Wait Until Network Is Idle      timeout=10s
+
 
 
 Cookie test
