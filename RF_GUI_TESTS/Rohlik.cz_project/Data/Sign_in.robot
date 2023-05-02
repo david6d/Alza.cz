@@ -45,3 +45,5 @@ Verify Logout
     ${login_icon_out}  Get Text     data-test=header-user-icon
     Should Not Contain    ${login_icon_out}    DK
     Should Contain        ${login_icon_out}    Účet
+
+    Sleep    3s

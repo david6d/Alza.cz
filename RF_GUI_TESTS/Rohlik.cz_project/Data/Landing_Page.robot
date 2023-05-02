@@ -7,6 +7,8 @@ Resource    Selectors.robot
 Start Web Test
     New Browser    ${BROWSER}    headless=False
     New Page       ${BASE_URL}
+    Wait Until Network Is Idle      timeout=10s
+
 
 Cookie test
     ${cookie}  Get Cookie   language
